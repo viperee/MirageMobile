@@ -30,7 +30,7 @@ h3 {
 
 h4 {
   font-family: Proxima Nova Bold;
-  font-size: 49px;
+  font-size: 27px;
   text-transform: uppercase;
 }
 
@@ -42,7 +42,8 @@ button {
   font-family: Proxima Nova Light;
   font-style: normal;
   font-weight: 300;
-  font-size: 26px;
+  font-size: 17px;
+  line-height: 25px;
 }
 
 .btn-with-icon {
@@ -131,33 +132,4 @@ button {
 .position-fixed-bottom {
   position: fixed;
   bottom: 0;
-}
-
-.defiliant-banner-wrapper {
-  height: 44px;
-  width: 100%;
-  overflow: hidden;
-
-  p {
-    font-family: Proxima Nova Bold;
-    font-size: 39px;
-    text-transform: uppercase;
-    animation: defilement-rtl 5s infinite linear;
-    white-space: nowrap;
-    margin: 0;
-    will-change: transform;
-  }
-}
-
-.defiliant-banner-wrapper p:hover {
-  animation-play-state: paused;
-}
-
-@keyframes defilement-rtl {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(100%, 0, 0);
-  }
 }

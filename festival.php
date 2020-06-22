@@ -6,18 +6,18 @@
     <?php include("head.php"); ?>
     <link rel="stylesheet" type="text/css" href="assets/css/festival.css">
 </head>
-<body class="background-noir">
+<body class="no-margin background-noir">
 <?php include("header.php"); ?>
 
 <main>
     <div class="container-fluid">
         <div class="row">
-            <div class="offset-2">
+            <div class="offset-1">
                 <h4 class="color-white">Le Festival</h4>
             </div>
         </div>
         <div class="row">
-            <div class="col-6 offset-2">
+            <div class="no-padding col-10 offset-1">
                 <p class="text-labeur color-white text-left">Le Mirage Festival propose à travers une programmation ambitieuse et
                     pluridisciplinaire, un panorama des cultures numériques. Pour rendre
                     compte de la richesse de cette création contemporaine nourrie par les
@@ -26,19 +26,11 @@
             </div>
         </div>
     </div>
-    <div class="background-white defiliant-banner-wrapper festival-banner">
-        <p>Le festival</p>
-    </div>
-    <div class="container-fluid ">
+    <div class="container-fluid">
         <div class="row background-solitude festival-description-wrapper">
             <div id="festival-details" class="background-white">
                 <div class="row">
                     <div class="col festival-details-text">
-                        <h3 class="color-noir">Cosmogonie</h3>
-                        <h3 class="color-noir">Cosmogonie</h3>
-                        <h3 class="color-noir">Cosmogonie</h3>
-                        <h3 class="color-noir">Cosmogonie</h3>
-                        <h3 class="color-noir">Cosmogonie</h3>
                         <h3 class="color-noir">Cosmogonie</h3>
                     </div>
                     <div class="col-1"></div>

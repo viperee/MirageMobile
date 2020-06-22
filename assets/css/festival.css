@@ -30,6 +30,9 @@
   font-family: Proxima Nova Medium;
   src: url("../fonts/proxima_nova_medium.ttf"); }
 
+.container-fluid {
+  margin-bottom: 71px; }
+
 .festival-banner {
   margin-top: 160.96px; }
 
