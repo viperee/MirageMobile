@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Proxima Nova Thin;
+  src: url("../fonts/proxima_nova_thin.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Light;
+  src: url("../fonts/proxima_nova_light.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Bold;
+  src: url("../fonts/proxima_nova_bold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova SemiBold;
+  src: url("../fonts/proxima_nova_semibold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova ExtraBold;
+  src: url("../fonts/proxima_nova_extrabold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Black;
+  src: url("../fonts/proxima_nova_black.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Regular;
+  src: url("../fonts/proxima_nova_regular.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Medium;
+  src: url("../fonts/proxima_nova_medium.ttf"); }
+
+.close {
+  cursor: pointer; }
+
+#close-sidenav-btn {
+  padding-right: 105.16px;
+  padding-top: 35.48px; }
+
+#sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s; }
+  #sidenav ul {
+    list-style-type: none;
+    padding-left: 97px;
+    margin-top: 54px; }
+
+.sidenav-background {
+  background-image: url("../media/img/sidenav-background.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center; }
+
+#sidenav-menu {
+  margin-top: 208px; }
+  #sidenav-menu .btn-icon-ticket {
+    margin-left: 97px; }
+
+#sidenav-content {
+  height: -webkit-fill-available; }
+
+.sidenav-link {
+  font-family: Proxima Nova Bold;
+  font-size: 45px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.sidenav-link:hover {
+  text-decoration: line-through; }
+
+.sidenav-link-active {
+  text-decoration: line-through; }
+
+#sidenav-social-network {
+  margin-left: 97px;
+  margin-top: 140px; }
+  #sidenav-social-network span {
+    cursor: pointer;
+    margin-right: 41.6px; }
+
+#menu {
+  margin-top: 60.5px; }
+
+#close-wrapper {
+  margin-left: auto; }

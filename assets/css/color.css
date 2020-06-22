@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------//
+//                          Couleur                            //
+//------------------------------------------------------------*/
+.color-noir {
+  color: #000000; }
+
+.color-gunmetal {
+  color: #2A3236; }
+
+.color-eclipse {
+  color: #383838; }
+
+.color-storm-grey {
+  color: #717276; }
+
+.color-dim-gray {
+  color: #707070; }
+
+.color-suva-grey {
+  color: #939393; }
+
+.color-lavender-grey {
+  color: #C6C6D1; }
+
+.color-solitude {
+  color: #EEF0F4; }
+
+.color-whisper {
+  color: #EAEAEA; }
+
+.color-white {
+  color: white; }
+
+/*----------------------------------------------------------------------//
+//                          Couleur de fond                            //
+//--------------------------------------------------------------------*/
+.background-noir {
+  background-color: #000000; }
+
+.background-white {
+  background-color: white; }
+
+.background-degrade {
+  background: linear-gradient(to right, #000000, #FFFFFF, #000000); }
+
+.background-solitude {
+  background-color: #EEF0F4; }

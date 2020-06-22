@@ -1,0 +1,198 @@
+/*--------------------------------------------------------------//
+//                          Couleur                            //
+//------------------------------------------------------------*/
+.color-noir {
+  color: #000000; }
+
+.color-gunmetal {
+  color: #2A3236; }
+
+.color-eclipse {
+  color: #383838; }
+
+.color-storm-grey {
+  color: #717276; }
+
+.color-dim-gray {
+  color: #707070; }
+
+.color-suva-grey {
+  color: #939393; }
+
+.color-lavender-grey {
+  color: #C6C6D1; }
+
+.color-solitude {
+  color: #EEF0F4; }
+
+.color-whisper {
+  color: #EAEAEA; }
+
+.color-white {
+  color: white; }
+
+/*----------------------------------------------------------------------//
+//                          Couleur de fond                            //
+//--------------------------------------------------------------------*/
+.background-noir {
+  background-color: #000000; }
+
+.background-white {
+  background-color: white; }
+
+.background-degrade {
+  background: linear-gradient(to right, #000000, #FFFFFF, #000000); }
+
+.background-solitude {
+  background-color: #EEF0F4; }
+
+@font-face {
+  font-family: Proxima Nova Thin;
+  src: url("../fonts/proxima_nova_thin.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Light;
+  src: url("../fonts/proxima_nova_light.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Bold;
+  src: url("../fonts/proxima_nova_bold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova SemiBold;
+  src: url("../fonts/proxima_nova_semibold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova ExtraBold;
+  src: url("../fonts/proxima_nova_extrabold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Black;
+  src: url("../fonts/proxima_nova_black.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Regular;
+  src: url("../fonts/proxima_nova_regular.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Medium;
+  src: url("../fonts/proxima_nova_medium.ttf"); }
+
+body {
+  margin-bottom: 0;
+  background-color: #000000; }
+
+h1 {
+  font-family: Proxima Nova ExtraBold;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #707070;
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 150px; }
+
+h2 {
+  font-family: Proxima Nova Bold;
+  color: white;
+  font-size: 87px; }
+
+h3 {
+  font-family: Proxima Nova Bold;
+  color: white;
+  text-transform: uppercase;
+  font-size: 79px; }
+
+h4 {
+  font-family: Proxima Nova Bold;
+  font-size: 49px;
+  text-transform: uppercase; }
+
+button {
+  cursor: pointer; }
+
+.text-labeur {
+  font-family: Proxima Nova Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px; }
+
+.btn-with-icon {
+  width: 262px;
+  height: 62px; }
+  .btn-with-icon img {
+    margin-right: 17.8px;
+    vertical-align: sub; }
+  .btn-with-icon span {
+    font-family: Proxima Nova Bold;
+    text-transform: uppercase;
+    font-size: 19px; }
+
+.btn-with-icon:hover {
+  background-color: #000000;
+  border: 1px solid white; }
+  .btn-with-icon:hover img {
+    color: white; }
+  .btn-with-icon:hover span {
+    color: white; }
+
+.btn-with-icon-black {
+  width: 262px;
+  height: 62px;
+  background-color: #000000;
+  border: none; }
+  .btn-with-icon-black img {
+    margin-right: 17.8px;
+    vertical-align: sub; }
+  .btn-with-icon-black span {
+    font-family: Proxima Nova Bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white; }
+
+.btn-with-icon-black-no-hover {
+  height: 75px;
+  background-color: #000000;
+  border: none; }
+  .btn-with-icon-black-no-hover img {
+    margin-right: 21.8px;
+    vertical-align: sub;
+    padding-left: 1em; }
+  .btn-with-icon-black-no-hover span {
+    font-family: Proxima Nova Bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white;
+    padding-right: 2em; }
+
+.btn-with-icon-black:hover {
+  background-color: white;
+  border: 1px solid #000000; }
+  .btn-with-icon-black:hover img {
+    color: #000000; }
+  .btn-with-icon-black:hover span {
+    color: #000000; }
+
+.position-fixed-bottom {
+  position: fixed;
+  bottom: 0; }
+
+.defiliant-banner-wrapper {
+  height: 44px;
+  width: 100%;
+  overflow: hidden; }
+  .defiliant-banner-wrapper p {
+    font-family: Proxima Nova Bold;
+    font-size: 39px;
+    text-transform: uppercase;
+    animation: defilement-rtl 5s infinite linear;
+    white-space: nowrap;
+    margin: 0;
+    will-change: transform; }
+
+.defiliant-banner-wrapper p:hover {
+  animation-play-state: paused; }
+
+@keyframes defilement-rtl {
+  0% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(100%, 0, 0); } }

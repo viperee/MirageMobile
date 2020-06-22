@@ -1,0 +1,55 @@
+@import "fonts.scss";
+
+.festival-banner {
+  margin-top: 160.96px;
+}
+
+.festival-description-wrapper {
+  padding-top: 228px;
+}
+
+#festival-details {
+  margin-right: 255px;
+  margin-left: 255px;
+
+  h3 {
+    margin: 0 0 0 105px;
+  }
+
+  p {
+    margin: 0 105px 0 0;
+  }
+}
+
+.festival-details-text {
+  margin-top: 91px;
+  margin-bottom: 91px;
+}
+
+#ambiance-details {
+  margin-right: 255px;
+  margin-left: 255px;
+}
+#ambiance-dj{
+  margin-right: 40px;
+}
+#img-ambiance-main{
+  width: 716px;
+  height: 842px;
+}
+.ambiance-title {
+  font-family: Proxima Nova ExtraBold;
+  font-size: 110px;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-top: 325px;
+  margin-bottom: 25px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #707070;
+  color: transparent;
+}
+.img-ambiance{
+  width: 197px;
+  height: 144px;
+  margin-bottom: 26px;
+}

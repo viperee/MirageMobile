@@ -1,0 +1,203 @@
+@import "color.scss";
+.timeline:not(.timeline--horizontal):before {
+  background-color: black !important;
+}
+
+.timeline__item:after {
+  background-color: black !important;
+  border: 2px white solid !important;
+  height: 15px !important;
+  width: 15px !important;
+  right: -7.5px !important;
+}
+
+.timeline__item--right:after {
+  left: -7.5px !important;
+}
+.ui-widget-header{
+  border: none !important;
+}
+.ui-tabs{
+  padding: 0;
+}
+.ui-tabs-nav{
+  margin-right: 40.5px !important;
+  margin-left: 40.5px !important;
+  padding: 0 !important;
+}
+.ui-tabs-tab{
+  background-color: black !important;
+  border: none !important;
+  margin: 0 !important;
+  a{
+    color: white !important;
+    span{
+      font-family: proxima-nova, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 2.8px;
+      font-size: 14px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+    p{
+      font-family: Proxima Nova Bold;
+      font-size: 21px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+  }
+}
+.ui-tabs .ui-tabs-panel{
+  background: $color-solitude;
+  padding-right: 350px;
+  padding-left: 350px;
+}
+.ui-tabs .ui-tabs-nav li:hover{
+  background-color: white !important;
+  a{
+    color: black !important;
+  }
+}
+.ui-tabs-anchor:active, .ui-tabs-anchor:focus{
+  outline:none;
+}
+
+.ui-tabs .ui-tabs-nav {
+  display: flex;
+}
+
+.ui-tabs .ui-tabs-nav li {
+  flex: 1;
+  display: flex;
+  white-space: normal;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+  flex: 1;
+  text-align: center;
+  padding-top: 29px !important;
+  padding-bottom: 29px !important;
+}
+
+.ui-tabs-active {
+  background-color: white !important;
+  a{
+    color: black !important;
+  }
+}
+.ui-widget-content{
+  border: none !important;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  border: 1px black solid;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 5px;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background-color: white;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.switch-text{
+  font-family: Proxima Nova Bold;
+  font-size: 21px;
+  vertical-align: -webkit-baseline-middle;
+  margin-right: 18px;
+}
+.header-accordion-title{
+  font-family: Proxima Nova Bold;
+  font-size: 27px;
+}
+.header-accordion-text{
+  font-family: Proxima Nova Regular;
+  font-size: 32px !important;
+  margin: 0 !important;
+}
+.header-accordion-footer{
+  font-family: Proxima Nova SemiBold;
+  font-size: 24px !important;
+}
+.header-accordion-time{
+  display: flex;
+}
+.header-accordion-time-text{
+  font-family: Proxima Nova Light;
+  font-size: 29px !important;
+  text-align: center;
+}
+.accordion-content{
+  overflow: inherit !important;
+  img{
+    float: left;
+    margin-right: 29px;
+  }
+  p{
+    font-family: Proxima Nova Regular;
+    font-size: 22px !important;
+    margin: 12px 0 0;
+  }
+}
+.accordion-content-title{
+  font-family: Proxima Nova Bold;
+  font-size: 22px;
+}
+.accordion-content-footer{
+  font-family: Proxima Nova SemiBold;
+  font-size: 21px;
+}
+

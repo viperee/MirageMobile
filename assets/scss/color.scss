@@ -1,0 +1,62 @@
+/*--------------------------------------------------------------//
+//                          Couleur                            //
+//------------------------------------------------------------*/
+
+$color-noir: #000000;
+$color-gunmetal: #2A3236;
+$color-eclipse: #383838;
+$color-storm-grey: #717276;
+$color-dim-gray: #707070;
+$color-suva-grey: #939393;
+$color-lavender-grey: #C6C6D1;
+$color-solitude: #EEF0F4;
+$color-whisper: #EAEAEA;
+$color-degrade: linear-gradient(to right, #000000,#FFFFFF,#000000);
+
+.color-noir{
+  color: $color-noir;
+}
+.color-gunmetal{
+  color: $color-gunmetal;
+}
+.color-eclipse{
+  color : $color-eclipse;
+}
+.color-storm-grey{
+  color : $color-storm-grey;
+}
+.color-dim-gray{
+  color : $color-dim-gray;
+}
+.color-suva-grey{
+  color: $color-suva-grey;
+}
+.color-lavender-grey{
+  color: $color-lavender-grey;
+}
+.color-solitude{
+  color: $color-solitude;
+}
+.color-whisper{
+  color: $color-whisper;
+}
+.color-white {
+  color: white;
+}
+
+/*----------------------------------------------------------------------//
+//                          Couleur de fond                            //
+//--------------------------------------------------------------------*/
+.background-noir{
+  background-color: $color-noir;
+}
+.background-white{
+  background-color: white;
+}
+.background-degrade{
+  background: linear-gradient(to right, #000000,#FFFFFF,#000000);
+}
+.background-solitude{
+  background-color: $color-solitude;
+}
+
