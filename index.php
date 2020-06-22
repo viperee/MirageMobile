@@ -5,7 +5,7 @@
     <title>Accueil</title>
     <?php include("head.php"); ?>
 </head>
-<body class="background-noir">
+<body class="no-margin background-noir">
 <?php include("header.php"); ?>
 <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
@@ -25,8 +25,6 @@
 <!--IMPORTS JS-->
 <?php include("script.php"); ?>
 <!--/IMPORTS JS-->
-<script src='node_modules/p5/lib/p5.min.js'></script>
-<script src="assets/js/lineDistortion.js"></script>
 <script src="assets/js/index.js"></script>
 </body>
 </html>

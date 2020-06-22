@@ -34,8 +34,7 @@
   cursor: pointer; }
 
 #close-sidenav-btn {
-  padding-right: 105.16px;
-  padding-top: 35.48px; }
+  padding: 15px; }
 
 #sidenav {
   height: 100%;
@@ -48,26 +47,20 @@
   transition: 0.5s; }
   #sidenav ul {
     list-style-type: none;
-    padding-left: 97px;
-    margin-top: 54px; }
+    padding-left: 35px;
+    margin-top: 50px; }
+    #sidenav ul li {
+      margin-bottom: 25px; }
 
-.sidenav-background {
-  background-image: url("../media/img/sidenav-background.svg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center; }
-
-#sidenav-menu {
-  margin-top: 208px; }
-  #sidenav-menu .btn-icon-ticket {
-    margin-left: 97px; }
+#sidenav-menu .btn-icon-ticket {
+  margin-left: 35px; }
 
 #sidenav-content {
-  height: -webkit-fill-available; }
+  height: fit-content; }
 
 .sidenav-link {
   font-family: Proxima Nova Bold;
-  font-size: 45px;
+  font-size: 25px;
   color: white;
   text-transform: uppercase;
   text-decoration: none; }
@@ -79,8 +72,8 @@
   text-decoration: line-through; }
 
 #sidenav-social-network {
-  margin-left: 97px;
-  margin-top: 140px; }
+  margin-left: 35px;
+  margin-top: 96px; }
   #sidenav-social-network span {
     cursor: pointer;
     margin-right: 41.6px; }

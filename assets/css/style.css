@@ -116,15 +116,15 @@ button {
   font-size: 26px; }
 
 .btn-with-icon {
-  width: 262px;
-  height: 62px; }
+  width: 206px;
+  height: 60px; }
   .btn-with-icon img {
     margin-right: 17.8px;
     vertical-align: sub; }
   .btn-with-icon span {
     font-family: Proxima Nova Bold;
     text-transform: uppercase;
-    font-size: 19px; }
+    font-size: 15px; }
 
 .btn-with-icon:hover {
   background-color: #000000;
@@ -145,7 +145,7 @@ button {
   .btn-with-icon-black span {
     font-family: Proxima Nova Bold;
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 15px;
     color: white; }
 
 .btn-with-icon-black-no-hover {
@@ -159,7 +159,7 @@ button {
   .btn-with-icon-black-no-hover span {
     font-family: Proxima Nova Bold;
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 15px;
     color: white;
     padding-right: 2em; }
 
