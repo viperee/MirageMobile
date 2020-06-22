@@ -11,12 +11,14 @@
 
 <main>
     <div class="container">
-        <h1 class="text-center">Cosmogonie</h1>
         <h3 class="text-center">Cosmogonie</h3>
-    </div>
-    <div id="lignes"></div>
-    <div class="background-white defiliant-banner-wrapper position-fixed-bottom">
-        <p>Mirage festival - Art, innovation et cultures du numérique - du 08 au 12 juillet</p>
+        <h3 class="text-center delai3ms">Cosmogonie</h3>
+        <h3 class="text-center delai6ms">Cosmogonie</h3>
+        <h3 class="text-center delai9ms">Cosmogonie</h3>
+        <h3 class="text-center delai12ms">Cosmogonie</h3>
+        <h3 class="text-center delai15ms">Cosmogonie</h3>
+        <h3 class="text-center delai18ms">Cosmogonie</h3>
+        <h3 class="text-center delai21ms">Cosmogonie</h3>
     </div>
 </main>
 

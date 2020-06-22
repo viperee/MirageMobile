@@ -49,11 +49,41 @@
 body {
   overflow: hidden; }
 
-#lignes {
-  background: #000000; }
+.container {
+  margin: 15% 0 0 0; }
+  .container h3 {
+    margin: 0; }
+  .container .delai3ms {
+    visibility: hidden;
+    animation: 0.3s fadeIn;
+    animation-fill-mode: forwards; }
+  .container .delai6ms {
+    visibility: hidden;
+    animation: 0.6s fadeIn;
+    animation-fill-mode: forwards; }
+  .container .delai9ms {
+    visibility: hidden;
+    animation: 0.9s fadeIn;
+    animation-fill-mode: forwards; }
+  .container .delai12ms {
+    visibility: hidden;
+    animation: 1.2s fadeIn;
+    animation-fill-mode: forwards; }
+  .container .delai15ms {
+    visibility: hidden;
+    animation: 1.5s fadeIn;
+    animation-fill-mode: forwards; }
+  .container .delai18ms {
+    visibility: hidden;
+    animation: 1.8s fadeIn;
+    animation-fill-mode: forwards; }
+  .container .delai21ms {
+    visibility: hidden;
+    animation: 2.1s fadeIn;
+    animation-fill-mode: forwards; }
 
-.container h1 {
-  margin: 0; }
-
-.container h3 {
-  margin: -8.5% 0 0 0; }
+@keyframes fadeIn {
+  99% {
+    visibility: hidden; }
+  100% {
+    visibility: visible; } }
