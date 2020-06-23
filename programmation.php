@@ -38,7 +38,7 @@
                                                                   alt="Télécharger l'application"><span>Telecharger le programme</span>
                 </button></a>
             </div>
-            <div class="offset-6 margin-vertical-center">
+            <div class="offset-1 enfant">
                 <span class="switch-text">Spécial enfants</span>
                 <label class="switch">
                     <input type="checkbox">

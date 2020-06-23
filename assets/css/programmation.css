@@ -49,6 +49,13 @@
 h4 {
   margin-bottom: 71px; }
 
+.enfant {
+  margin-top: 25px;
+  margin-bottom: 84px; }
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+  border-bottom-right-radius: 0px; }
+
 .timeline:not(.timeline--horizontal):before {
   background-color: #000000 !important; }
 
@@ -186,7 +193,7 @@ input:checked + .slider:before {
 
 .switch-text {
   font-family: Proxima Nova Bold;
-  font-size: 21px;
+  font-size: 20px;
   vertical-align: -webkit-baseline-middle;
   margin-right: 18px; }
 
