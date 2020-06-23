@@ -1,45 +1,53 @@
 #footer {
-  padding-bottom: 100px;
-  padding-top: 100px; }
+  padding-bottom: 84px;
+  padding-top: 15px; }
+  #footer ul {
+    padding-top: 45px; }
   #footer li {
-    padding-bottom: 4px; }
+    padding-bottom: 20px; }
 
 .footer-link {
   font-family: Proxima Nova Bold;
-  font-size: 18px;
+  font-size: 19px;
   color: white;
   text-transform: uppercase; }
 
 #newsletter-text {
   font-family: Proxima Nova Bold;
-  font-size: 26px;
+  font-size: 19px;
   color: white;
-  margin-top: 10px; }
+  margin-top: 42px; }
 
 #newsletter-mail {
   border: 1px solid #FFFFFF;
   border-radius: 4px;
-  padding: 18px 1em 18px 28px;
+  padding: 16px 30px 15px 23px;
   background-color: black;
   color: white;
-  margin-right: 27px; }
+  margin-right: 23px; }
 
 #newsletter-mail::placeholder {
   color: white;
   font-family: Proxima Nova Regular;
-  font-size: 18px; }
+  font-size: 15px; }
 
 #btn-newsletter-mail {
-  width: 160px;
-  height: 53px; }
+  width: 122px;
+  height: 51px; }
 
 #footer-copyright-text {
   font-family: Arial;
   font-size: 18px; }
 
-#social-network span img {
-  margin-right: 40px;
-  cursor: pointer; }
+#footer-copyright p {
+  margin-top: 27px;
+  margin-bottom: 27px; }
+
+#social-network {
+  margin-top: 58px; }
+  #social-network span img {
+    margin-right: 40px;
+    cursor: pointer; }
 
 #footer-arrow {
   cursor: pointer; }
