@@ -34,8 +34,7 @@
         </ul>
         <div class="row pt-4 mr-0 ml-0 background-solitude">
             <div class="offset-1">
-                <a href="assets/media/download/programme_mirage.pdf" download><button class="btn-with-icon-black-no-hover"><img src="assets/icons/arrow.svg"
-                                                                  alt="Télécharger l'application"><span>Telecharger le programme</span>
+                <a href="assets/media/download/programme_mirage.pdf" download><button class="btn-with-icon-black-no-hover"><img src="assets/icons/arrow.svg" alt="Télécharger l'application"><span>Telecharger le programme</span>
                 </button></a>
             </div>
             <div class="offset-1 enfant">
@@ -55,7 +54,7 @@
                                 <div id="accordion">
                                     <div class="group">
                                         <div class="header-accordion row">
-                                            <div class="header-accordion-content col-7">
+                                            <div class="header-accordion-content col-10">
                                                 <span class="header-accordion-title">Cosmogonie</span>
                                                 <img class="header-accordion-icon" src="assets/icons/arrow-down.svg">
                                                 <p class="header-accordion-text">Hydrogeny<br>
@@ -66,7 +65,7 @@
                                                     <span class="header-accordion-footer">Méca</span>
                                                 </div>
                                             </div>
-                                            <div class="header-accordion-time offset-2">
+                                            <div class="header-accordion-time">
                                                 <p class="header-accordion-time-text">10h30<br>
                                                     I<br>
                                                     13h</p>
@@ -89,7 +88,7 @@
                                 <div id="accordion">
                                     <div class="group">
                                         <div class="header-accordion row">
-                                            <div class="header-accordion-content col-7">
+                                            <div class="header-accordion-content col-10">
                                                 <span class="header-accordion-title">Enfant</span>
                                                 <img class="header-accordion-icon" src="assets/icons/arrow-down.svg">
                                                 <p class="header-accordion-text">Play me a story
@@ -98,7 +97,7 @@
                                                     <span class="header-accordion-footer">Méca</span>
                                                 </div>
                                             </div>
-                                            <div class="header-accordion-time offset-2">
+                                            <div class="header-accordion-time">
                                                 <p class="header-accordion-time-text">10h30<br>
                                                     I<br>
                                                     13h</p>
@@ -119,7 +118,7 @@
                                 <div id="accordion">
                                     <div class="group">
                                         <div class="header-accordion row">
-                                            <div class="header-accordion-content col-7">
+                                            <div class="header-accordion-content col-10">
                                                 <span class="header-accordion-title">Réalité virtuelle</span>
                                                 <img class="header-accordion-icon" src="assets/icons/arrow-down.svg">
                                                 <p class="header-accordion-text">Cosmorider</p>
@@ -127,7 +126,7 @@
                                                     <span class="header-accordion-footer">Musée mer marine</span>
                                                 </div>
                                             </div>
-                                            <div class="header-accordion-time offset-2">
+                                            <div class="header-accordion-time">
                                                 <p class="header-accordion-time-text">15h30<br>
                                                     I<br>
                                                     18h</p>
@@ -148,7 +147,7 @@
                                 <div id="accordion">
                                     <div class="group">
                                         <div class="header-accordion row">
-                                            <div class="header-accordion-content col-8">
+                                            <div class="header-accordion-content col-10">
                                                 <span class="header-accordion-title">Enfant</span>
                                                 <img class="header-accordion-icon" src="assets/icons/arrow-down.svg">
                                                 <p class="header-accordion-text">Atelier Art et sciences</p>
@@ -156,7 +155,7 @@
                                                     <span class="header-accordion-footer">Musée mer marine</span>
                                                 </div>
                                             </div>
-                                            <div class="header-accordion-time offset-1">
+                                            <div class="header-accordion-time">
                                                 <p class="header-accordion-time-text">15h<br>
                                                     I<br>
                                                     18h</p>
@@ -177,7 +176,7 @@
                                 <div id="accordion">
                                     <div class="group">
                                         <div class="header-accordion row">
-                                            <div class="header-accordion-content col-7">
+                                            <div class="header-accordion-content col-10">
                                                 <span class="header-accordion-title">Soirée de performances</span>
                                                 <img class="header-accordion-icon" src="assets/icons/arrow-down.svg">
                                                 <p class="header-accordion-text">DJ Set<br>Schnautzi<br>Pam Sound System</p>
@@ -185,7 +184,7 @@
                                                     <span class="header-accordion-footer">La fabrique Pola</span>
                                                 </div>
                                             </div>
-                                            <div class="header-accordion-time offset-2">
+                                            <div class="header-accordion-time">
                                                 <p class="header-accordion-time-text">21h30<br>
                                                     I<br>
                                                     02h</p>

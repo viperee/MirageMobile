@@ -107,8 +107,8 @@ h4 {
 
 .ui-tabs .ui-tabs-panel {
   background: #EEF0F4;
-  padding-right: 24%;
-  padding-left: 24%; }
+  padding-right: 8%;
+  padding-left: 8%; }
 
 .ui-tabs .ui-tabs-nav li:hover {
   background-color: white !important; }
@@ -120,7 +120,7 @@ h4 {
 
 .ui-tabs .ui-tabs-nav {
   display: inline-grid;
-  margin: 0 20px; }
+  margin: 0 4%; }
 
 .ui-tabs .ui-tabs-nav li {
   flex: 1;
@@ -205,22 +205,29 @@ input:checked + .slider:before {
 
 .header-accordion-title {
   font-family: Proxima Nova Bold;
-  font-size: 27px;
+  text-transform: uppercase;
+  font-size: 14px;
   margin-right: 20px; }
 
 .header-accordion-icon {
   vertical-align: text-top;
   cursor: pointer; }
 
+img.header-accordion-icon {
+  width: 6%; }
+
+.header-accordion {
+  padding: 4%; }
+
 .header-accordion-text {
   font-family: Proxima Nova Regular;
-  font-size: 32px !important;
+  font-size: 17px !important;
   margin: 0 !important;
   line-height: normal !important; }
 
 .header-accordion-footer {
   font-family: Proxima Nova SemiBold;
-  font-size: 24px !important;
+  font-size: 13px !important;
   text-transform: uppercase !important; }
 
 .header-accordion-time {
@@ -228,26 +235,38 @@ input:checked + .slider:before {
 
 .header-accordion-time-text {
   font-family: Proxima Nova Light;
-  font-size: 29px !important;
+  font-size: 16px !important;
   text-align: center;
   text-transform: uppercase;
   margin-top: 0; }
 
 .accordion-content {
   overflow: inherit !important;
-  margin-top: 79px; }
+  margin-top: 43px; }
   .accordion-content img {
     float: left;
-    margin-right: 29px; }
+    margin-right: 16px;
+    width: 72px;
+    border-radius: 4px; }
   .accordion-content p {
     font-family: Proxima Nova Regular;
-    font-size: 22px !important;
+    font-size: 12px !important;
     margin: 12px 0 0; }
 
 .accordion-content-title {
   font-family: Proxima Nova Bold;
-  font-size: 22px; }
+  font-size: 12px; }
 
 .accordion-content-footer {
   font-family: Proxima Nova SemiBold;
-  font-size: 21px; }
+  font-size: 11px; }
+
+.timeline--mobile .timeline__item:after {
+  left: 1.32% !important; }
+
+.timeline:not(.timeline--horizontal):before {
+  width: 6px;
+  border-radius: 3px; }
+
+.timeline__content p {
+  margin-top: 7px; }
