@@ -41,7 +41,7 @@
             <div class="offset-1 enfant">
                 <span class="switch-text">Spécial enfants</span>
                 <label class="switch">
-                    <input type="checkbox">
+                    <input id="checkbox-enfants" type="checkbox">
                     <span class="slider round"></span>
                 </label>
             </div>
@@ -50,31 +50,34 @@
             <div class="timeline">
                 <div class="timeline__wrap">
                     <div class="timeline__items">
-                        <div class="timeline__item">
+                        <div class="timeline__item no-enfant">
                             <div class="timeline__content">
                                 <div id="accordion">
                                     <div class="group">
-                                        <div class="header-accordion">
-                                            <div class="header-accordion-content">
+                                        <div class="header-accordion row">
+                                            <div class="header-accordion-content col-7">
                                                 <span class="header-accordion-title">Cosmogonie</span>
+                                                <img class="header-accordion-icon" src="assets/icons/arrow-down.svg">
                                                 <p class="header-accordion-text">Hydrogeny<br>
                                                     Orbihedron<br>
                                                     Noise Signal Silence
                                                 </p>
-                                                <span class="header-accordion-footer">Meca</span>
+                                                <div class="mt-2">
+                                                    <span class="header-accordion-footer">Méca</span>
+                                                </div>
                                             </div>
-                                            <div class="header-accordion-time">
+                                            <div class="header-accordion-time offset-2">
                                                 <p class="header-accordion-time-text">10h30<br>
                                                     I<br>
                                                     13h</p>
                                             </div>
                                         </div>
-
-
                                         <div class="accordion-content">
                                             <img src="assets/media/img/hydrogeny.svg">
                                             <span class="accordion-content-title">Hydrogeny</span>
-                                            <p>Avec Hydrogeny, le duo nous donne à voir l’atome le plus simple de la nature, l’hydrogène, dont la forme terrestre la plus répandue se trouve dans la composition de l’eau.</p>
+                                            <p>Avec Hydrogeny, le duo nous donne à voir l’atome le plus simple de la
+                                                nature, l’hydrogène, dont la forme terrestre la plus répandue se trouve
+                                                dans la composition de l’eau.</p>
                                             <span class="accordion-content-footer">Evelina Domnitch - Dmitry Gelfand</span>
                                         </div>
                                     </div>
@@ -83,22 +86,118 @@
                         </div>
                         <div class="timeline__item">
                             <div class="timeline__content">
-                                Content / markup here
+                                <div id="accordion">
+                                    <div class="group">
+                                        <div class="header-accordion row">
+                                            <div class="header-accordion-content col-7">
+                                                <span class="header-accordion-title">Enfant</span>
+                                                <img class="header-accordion-icon" src="assets/icons/arrow-down.svg">
+                                                <p class="header-accordion-text">Play me a story
+                                                </p>
+                                                <div class="mt-2">
+                                                    <span class="header-accordion-footer">Méca</span>
+                                                </div>
+                                            </div>
+                                            <div class="header-accordion-time offset-2">
+                                                <p class="header-accordion-time-text">10h30<br>
+                                                    I<br>
+                                                    13h</p>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-content">
+                                            <img src="assets/media/img/play-story.svg">
+                                            <span class="accordion-content-title">Play me a story</span>
+                                            <p>Cette exposition réunit 7 projets qui explorent les nouvelles formes hybrides de la narration à l’ère du numérique. Chaque projet explore de nouvelles configurations pour la narration via des objets de notre quotidien : un jeu de cartes, un globe, une lanterne de lecture…</p>
+                                            <span class="accordion-content-footer">Collectif de 12 installateurs</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline__item no-enfant">
+                            <div class="timeline__content">
+                                <div id="accordion">
+                                    <div class="group">
+                                        <div class="header-accordion row">
+                                            <div class="header-accordion-content col-7">
+                                                <span class="header-accordion-title">Réalité virtuelle</span>
+                                                <img class="header-accordion-icon" src="assets/icons/arrow-down.svg">
+                                                <p class="header-accordion-text">Cosmorider</p>
+                                                <div class="mt-2">
+                                                    <span class="header-accordion-footer">Musée mer marine</span>
+                                                </div>
+                                            </div>
+                                            <div class="header-accordion-time offset-2">
+                                                <p class="header-accordion-time-text">15h30<br>
+                                                    I<br>
+                                                    18h</p>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-content">
+                                            <img src="assets/media/img/realite-virtuelle.svg">
+                                            <span class="accordion-content-title">Cosmorider</span>
+                                            <p>A 360°, vivez l’aventure spatiale de Thomas Pesquet et accompagnez l’astronaute français jusqu’à sa sortie dans l’espace grâce aux premières images tournées dans l’espace en réalité virtuelle.</p>
+                                            <span class="accordion-content-footer">Pierre-Emmanuel Le Goff - Jürgen Hansen</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="timeline__item">
                             <div class="timeline__content">
-                                Content / markup here
+                                <div id="accordion">
+                                    <div class="group">
+                                        <div class="header-accordion row">
+                                            <div class="header-accordion-content col-8">
+                                                <span class="header-accordion-title">Enfant</span>
+                                                <img class="header-accordion-icon" src="assets/icons/arrow-down.svg">
+                                                <p class="header-accordion-text">Atelier Art et sciences</p>
+                                                <div class="mt-2">
+                                                    <span class="header-accordion-footer">Musée mer marine</span>
+                                                </div>
+                                            </div>
+                                            <div class="header-accordion-time offset-1">
+                                                <p class="header-accordion-time-text">15h<br>
+                                                    I<br>
+                                                    18h</p>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-content">
+                                            <img src="assets/media/img/arts-sciences.svg">
+                                            <span class="accordion-content-title">Atelier Art et sciences</span>
+                                            <p>Les voyages intergalactiques nous proposent une découverte des confins de notre univers, repoussant les limites de notre perception et de notre compréhension. </p>
+                                            <span class="accordion-content-footer">DSAA Villefontaine</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="timeline__item">
+                        <div class="timeline__item no-enfant">
                             <div class="timeline__content">
-                                Content / markup here
-                            </div>
-                        </div>
-                        <div class="timeline__item">
-                            <div class="timeline__content">
-                                Content / markup here
+                                <div id="accordion">
+                                    <div class="group">
+                                        <div class="header-accordion row">
+                                            <div class="header-accordion-content col-7">
+                                                <span class="header-accordion-title">Soirée de performances</span>
+                                                <img class="header-accordion-icon" src="assets/icons/arrow-down.svg">
+                                                <p class="header-accordion-text">DJ Set<br>Schnautzi<br>Pam Sound System</p>
+                                                <div class="mt-2">
+                                                    <span class="header-accordion-footer">La fabrique Pola</span>
+                                                </div>
+                                            </div>
+                                            <div class="header-accordion-time offset-2">
+                                                <p class="header-accordion-time-text">21h30<br>
+                                                    I<br>
+                                                    02h</p>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-content">
+                                            <img src="assets/media/img/soiree-performances.svg">
+                                            <span class="accordion-content-title">Schnautzi</span>
+                                            <p>Dj, boss du label Argent Sale et animateur de l’émission La Sélection, il aime créer des ponts entre les musiques d’hier et d’aujourd’hui et collisionner les sonorités occidentales avec des morceaux venus d’ailleurs.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

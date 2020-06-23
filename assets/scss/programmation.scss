@@ -24,7 +24,10 @@ h4 {
   width: 15px !important;
   right: -7.5px !important;
 }
-
+.timeline__content{
+  padding: 6% !important;
+  border: none !important;
+}
 .timeline__item--right:after {
   left: -7.5px !important;
 }
@@ -43,7 +46,7 @@ h4 {
   padding: 0 !important;
 }
 .ui-tabs-tab{
-  background-color: $color-noir !important;
+  background-color: black !important;
   border: none !important;
   margin: 0 !important;
   a{
@@ -67,11 +70,13 @@ h4 {
 }
 .ui-tabs .ui-tabs-panel{
   background: $color-solitude;
+  padding-right: 24%;
+  padding-left: 24%;
 }
 .ui-tabs .ui-tabs-nav li:hover{
   background-color: white !important;
   a{
-    color: $color-noir !important;
+    color: black !important;
   }
 }
 .ui-tabs-anchor:active, .ui-tabs-anchor:focus{
@@ -129,7 +134,7 @@ h4 {
   right: 0;
   bottom: 0;
   background-color: white;
-  border: 1px $color-noir solid;
+  border: 1px black solid;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -178,15 +183,22 @@ input:checked + .slider:before {
 .header-accordion-title{
   font-family: Proxima Nova Bold;
   font-size: 27px;
+  margin-right: 20px;
+}
+.header-accordion-icon{
+  vertical-align: text-top;
+  cursor: pointer;
 }
 .header-accordion-text{
   font-family: Proxima Nova Regular;
   font-size: 32px !important;
   margin: 0 !important;
+  line-height: normal !important;
 }
 .header-accordion-footer{
   font-family: Proxima Nova SemiBold;
   font-size: 24px !important;
+  text-transform: uppercase !important;
 }
 .header-accordion-time{
   display: flex;
@@ -195,9 +207,12 @@ input:checked + .slider:before {
   font-family: Proxima Nova Light;
   font-size: 29px !important;
   text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
 }
 .accordion-content{
   overflow: inherit !important;
+  margin-top: 79px;
   img{
     float: left;
     margin-right: 29px;
