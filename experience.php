@@ -6,7 +6,7 @@
     <?php include("head.php"); ?>
     <link rel="stylesheet" type="text/css" href="assets/css/experience.css">
 </head>
-<body class="background-noir">
+<body class="no-margin background-noir">
 <?php include("header.php"); ?>
 
 <main>
@@ -16,9 +16,9 @@
         <p class="text-labeur color-white">Fred et Laura, mercredi soir</p>
     </div>
     <div class="block-experience">
-        <div class="video-container">
-            <img id="experience-img" src="./assets/media/img/experience-ambiance.svg" alt="experience-ambiance">
-        </div>
+        <video autoplay muted loop>
+            <source src="./assets/media/video/experience-insolite.mp4" type="video/mp4">
+        </video>
         <div class="experience-overlay"></div>
         <div class="block-experience-text-wrapper-left">
             <div class="text-video-left">
@@ -31,8 +31,8 @@
         </div>
     </div>
     <div class="block-experience">
-        <div class="video-container">
-            <img id="experience-img" src="./assets/media/img/experience-ambiance.svg" alt="experience-ambiance">
+        <div class="media-container">
+            <img src="./assets/media/img/experience-ambiance.svg" alt="experience-ambiance">
         </div>
         <div class="experience-overlay"></div>
         <div class="block-experience-text-wrapper">
@@ -47,11 +47,24 @@
         <h2>Mais le Mirage, c’est bien plus que ça !</h2>
     </div>
     <div class="block-experience">
-        <div class="video-container">
-            <video id="videoBG" autoplay muted loop>
+        <div class="media-container">
+            <img src="./assets/media/img/ambiance-soir.gif" alt="ambiance-soir">
+        </div>
+        <div class="experience-overlay"></div>
+        <div id="ambiance-soir" class="block-experience-text-wrapper-left">
+            <div class="text-video-left">
+                <h2 class="no-margin w-50">Y a qui ce soir sur scène ?</h2>
+                <p class="text-labeur color-white w-50">Cinq jours, Cinq nuits et cinq scènes pour plus d’une 20aine d’artistes, découverte et soirée mémorable garantis !</p>
+            </div>
+        </div>
+    </div>
+    <div class="block-experience">
+        <div class="media-container">
+            <video autoplay muted loop>
                 <source src="./assets/media/video/experience.mp4" type="video/mp4">
             </video>
         </div>
+        <div class="experience-overlay"></div>
         <div class="block-experience-text-wrapper">
             <div class="text-video text-right">
                 <h2 class="no-margin">T’es plutôt entre amis ou en famille?</h2>
@@ -64,8 +77,8 @@
         <h2>Bref, le Mirage, c’est …</h2>
     </div>
     <div class="block-experience">
-        <div class="video-container">
-            <video id="videoBG" autoplay muted loop>
+        <div class="media-container">
+            <video autoplay muted loop>
                 <source src="./assets/media/video/experience-drone.mp4" type="video/mp4">
             </video>
         </div>
@@ -76,8 +89,8 @@
         </div>
     </div>
     <div class="block-experience">
-        <div class="video-container">
-            <video id="videoBG" autoplay muted loop>
+        <div class="media-container">
+            <video autoplay muted loop>
                 <source src="./assets/media/video/experience-enfant.mp4" type="video/mp4">
             </video>
         </div>
@@ -89,8 +102,8 @@
         </div>
     </div>
     <div class="block-experience">
-        <div class="video-container">
-            <video id="videoBG" autoplay muted loop>
+        <div class="media-container">
+            <video autoplay muted loop>
                 <source src="./assets/media/video/experience-intense.mp4" type="video/mp4">
             </video>
         </div>
@@ -105,8 +118,8 @@
         <h2>Alors …</h2>
     </div>
     <div class="block-experience">
-        <div class="video-container">
-            <video id="videoBG" autoplay muted loop>
+        <div class="media-container">
+            <video autoplay muted loop>
                 <source src="./assets/media/video/experience-viens.mp4" type="video/mp4">
             </video>
         </div>

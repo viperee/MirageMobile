@@ -1,5 +1,5 @@
 <footer>
-    <div id="footer" class="row offset-1">
+    <div id="footer" class="row no-padding col-10 offset-1">
         <div class="no-padding">
             <a href="index.php"><img class="logo" src="assets/media/img/logo.png" alt="Logo"></a>
             <ul class="no-padding">

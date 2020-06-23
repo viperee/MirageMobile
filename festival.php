@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="offset-1">
+            <div class="col-10 no-padding offset-1">
                 <p class="text-labeur color-white text-left">Le Mirage Festival propose à travers une programmation
                     ambitieuse et
                     pluridisciplinaire, un panorama des cultures numériques. Pour rendre
