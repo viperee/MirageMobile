@@ -46,11 +46,14 @@
 .background-solitude {
   background-color: #EEF0F4; }
 
+h4 {
+  margin-bottom: 71px; }
+
 .timeline:not(.timeline--horizontal):before {
-  background-color: black !important; }
+  background-color: #000000 !important; }
 
 .timeline__item:after {
-  background-color: black !important;
+  background-color: #000000 !important;
   border: 2px white solid !important;
   height: 15px !important;
   width: 15px !important;
@@ -59,6 +62,9 @@
 .timeline__item--right:after {
   left: -7.5px !important; }
 
+.ui-widget-content {
+  background: #000000; }
+
 .ui-widget-header {
   border: none !important; }
 
@@ -66,12 +72,10 @@
   padding: 0; }
 
 .ui-tabs-nav {
-  margin-right: 40.5px !important;
-  margin-left: 40.5px !important;
   padding: 0 !important; }
 
 .ui-tabs-tab {
-  background-color: black !important;
+  background-color: #000000 !important;
   border: none !important;
   margin: 0 !important; }
   .ui-tabs-tab a {
@@ -91,20 +95,19 @@
       text-transform: uppercase; }
 
 .ui-tabs .ui-tabs-panel {
-  background: #EEF0F4;
-  padding-right: 350px;
-  padding-left: 350px; }
+  background: #EEF0F4; }
 
 .ui-tabs .ui-tabs-nav li:hover {
   background-color: white !important; }
   .ui-tabs .ui-tabs-nav li:hover a {
-    color: black !important; }
+    color: #000000 !important; }
 
 .ui-tabs-anchor:active, .ui-tabs-anchor:focus {
   outline: none; }
 
 .ui-tabs .ui-tabs-nav {
-  display: flex; }
+  display: inline-grid;
+  margin: 0 20px; }
 
 .ui-tabs .ui-tabs-nav li {
   flex: 1;
@@ -120,7 +123,7 @@
 .ui-tabs-active {
   background-color: white !important; }
   .ui-tabs-active a {
-    color: black !important; }
+    color: #000000 !important; }
 
 .ui-widget-content {
   border: none !important; }
@@ -147,7 +150,7 @@
   right: 0;
   bottom: 0;
   background-color: white;
-  border: 1px black solid;
+  border: 1px #000000 solid;
   -webkit-transition: .4s;
   transition: .4s; }
 

@@ -1,5 +1,14 @@
-#fred-laura-container h3 {
-  margin: 0; }
+#fred-laura-container {
+  margin-top: 59%;
+  margin-bottom: 52%; }
+  #fred-laura-container h3 {
+    margin: 0; }
+  #fred-laura-container a {
+    font-family: Proxima Nova Bold;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-decoration: none; }
 
 #experience-img {
   width: 100%; }
@@ -7,11 +16,15 @@
 #videoBG {
   width: 100%; }
 
+video, .block-experience img {
+  height: 896px; }
+
 .block-experience {
   position: relative;
   width: 100%;
   margin: auto;
-  display: block; }
+  display: block;
+  overflow: hidden; }
 
 .block-experience-text-wrapper {
   width: 50%;
@@ -32,7 +45,6 @@
   width: 50%;
   position: absolute;
   top: 60%;
-  left: 208px;
   display: flex;
   height: 100%; }
 
@@ -80,5 +92,5 @@
   background: linear-gradient(0deg, #161a2d 3%, rgba(22, 26, 45, 0.9) 10%, rgba(22, 26, 45, 0.4) 50%, rgba(22, 26, 45, 0.9) 90%, #161a2d 97%); }
 
 .experience-text-only {
-  padding-top: 485px;
-  padding-bottom: 485px; }
+  padding-top: 412px;
+  padding-bottom: 412px; }

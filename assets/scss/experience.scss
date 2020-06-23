@@ -2,6 +2,16 @@
   h3 {
     margin: 0;
   }
+  
+  a{
+    font-family: Proxima Nova Bold;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  margin-top: 59%;
+  margin-bottom: 52%;
 }
 
 #experience-img {
@@ -11,12 +21,16 @@
 #videoBG {
   width: 100%;
 }
+video, .block-experience img{
+  height: 896px;
+}
 
 .block-experience {
   position: relative;
   width: 100%;
   margin: auto;
   display: block;
+  overflow: hidden;
 }
 
 .block-experience .video-container {
@@ -43,7 +57,6 @@
   width: 50%;
   position: absolute;
   top: 60%;
-  left: 208px;
   display: flex;
   height: 100%;
 }
@@ -98,6 +111,6 @@
 }
 
 .experience-text-only {
-  padding-top: 485px;
-  padding-bottom: 485px;
+  padding-top: 412px;
+  padding-bottom: 412px;
 }

@@ -7,18 +7,20 @@
     <link rel="stylesheet" type="text/css" href="assets/css/programmation.css">
     <link rel="stylesheet" type="text/css" href="assets/css/timeline.min.css">
 </head>
-<body>
+<body class="no-margin">
 <?php include("header.php"); ?>
 
 <main>
-    <div class="row">
-        <div class="offset-2">
-            <h4 class="color-white">Programmation</h4>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-1">
+                <h4 class="color-white">Programmation</h4>
+            </div>
         </div>
     </div>
 
     <div id="tabs">
-        <ul class="background-noir">
+        <ul class="col-11 offset-1 background-noir">
             <li><a href="#tabs-1"><span>Mercredi</span>
                     <p>08 Juillet</p></a></li>
             <li><a href="#tabs-2"><span>Jeudi</span>
@@ -30,7 +32,7 @@
             <li><a href="#tabs-5"><span>Dimanche</span>
                     <p>12 Juillet</p></a></li>
         </ul>
-        <div class="row mt-4 mr-0 ml-0 background-solitude">
+        <div class="row pt-4 mr-0 ml-0 background-solitude">
             <div class="offset-1">
                 <a href="assets/media/download/programme_mirage.pdf" download><button class="btn-with-icon-black-no-hover"><img src="assets/icons/arrow.svg"
                                                                   alt="Télécharger l'application"><span>Telecharger le programme</span>

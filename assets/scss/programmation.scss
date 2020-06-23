@@ -1,10 +1,15 @@
 @import "color.scss";
+
+h4 {
+  margin-bottom: 71px;
+}
+
 .timeline:not(.timeline--horizontal):before {
-  background-color: black !important;
+  background-color: $color-noir !important;
 }
 
 .timeline__item:after {
-  background-color: black !important;
+  background-color: $color-noir !important;
   border: 2px white solid !important;
   height: 15px !important;
   width: 15px !important;
@@ -14,6 +19,11 @@
 .timeline__item--right:after {
   left: -7.5px !important;
 }
+
+.ui-widget-content {
+  background: $color-noir;
+}
+
 .ui-widget-header{
   border: none !important;
 }
@@ -21,12 +31,10 @@
   padding: 0;
 }
 .ui-tabs-nav{
-  margin-right: 40.5px !important;
-  margin-left: 40.5px !important;
   padding: 0 !important;
 }
 .ui-tabs-tab{
-  background-color: black !important;
+  background-color: $color-noir !important;
   border: none !important;
   margin: 0 !important;
   a{
@@ -50,13 +58,11 @@
 }
 .ui-tabs .ui-tabs-panel{
   background: $color-solitude;
-  padding-right: 350px;
-  padding-left: 350px;
 }
 .ui-tabs .ui-tabs-nav li:hover{
   background-color: white !important;
   a{
-    color: black !important;
+    color: $color-noir !important;
   }
 }
 .ui-tabs-anchor:active, .ui-tabs-anchor:focus{
@@ -64,7 +70,8 @@
 }
 
 .ui-tabs .ui-tabs-nav {
-  display: flex;
+  display: inline-grid;
+  margin: 0 20px;
 }
 
 .ui-tabs .ui-tabs-nav li {
@@ -83,7 +90,7 @@
 .ui-tabs-active {
   background-color: white !important;
   a{
-    color: black !important;
+    color: $color-noir !important;
   }
 }
 .ui-widget-content{
@@ -113,7 +120,7 @@
   right: 0;
   bottom: 0;
   background-color: white;
-  border: 1px black solid;
+  border: 1px $color-noir solid;
   -webkit-transition: .4s;
   transition: .4s;
 }
