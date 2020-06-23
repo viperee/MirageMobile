@@ -3,8 +3,8 @@
         <div class="no-padding">
             <a href="index.php"><img class="logo" src="assets/media/img/logo.png" alt="Logo"></a>
             <ul class="no-padding">
-                <li><a class="footer-link">Contacts</a></li>
-                <li><a class="footer-link">Partenariats</a></li>
+                <li><a class="footer-link" href="contact.php">Contact</a></li>
+                <li><a class="footer-link" href="partenariats.php">Partenaires</a></li>
                 <li><a class="footer-link">Crédits</a></li>
                 <li><a class="footer-link">Mentions Légales</a></li>
                 <li><a class="footer-link">Plan du site</a></li>
