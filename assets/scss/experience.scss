@@ -37,10 +37,8 @@ video, .block-experience img{
 }
 
 .block-experience-text-wrapper {
-  width: 50%;
   position: absolute;
   top: 60%;
-  right: 208px;
   display: flex;
   height: 100%;
 }
@@ -54,7 +52,6 @@ video, .block-experience img{
 }
 
 .block-experience-text-wrapper-left {
-  width: 50%;
   position: absolute;
   top: 60%;
   display: flex;
@@ -74,11 +71,11 @@ video, .block-experience img{
 .block-experience-text-wrapper-center {
   position: absolute;
   top: 0;
-  left: 25%;
+  left: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 83%;
   height: 100%;
 }
 
@@ -97,7 +94,7 @@ video, .block-experience img{
   left: 6%;
   display: flex;
   justify-content: center;
-  width: 35%;
+  width: 62%;
   height: 100%;
 }
 

@@ -36,7 +36,7 @@
             <img src="./assets/media/img/experience-ambiance.svg" alt="experience-ambiance">
         </div>
         <div class="experience-overlay"></div>
-        <div class="block-experience-text-wrapper">
+        <div class="col-10 offset-1 block-experience-text-wrapper">
             <div class="text-video text-right">
                 <h2 class="no-margin">Des ambiances qui claquent !</h2>
                 <p class="text-labeur color-white">Jeux de lumière, matériaux détournés, décors animés : un terrain,
@@ -45,14 +45,14 @@
         </div>
     </div>
     <div class="container text-center experience-text-only">
-        <h2>Mais le Mirage, c’est bien plus que ça !</h2>
+        <h2>Mais le Mirage, c’est</br>bien plus que ça !</h2>
     </div>
     <div class="block-experience">
         <div class="media-container">
             <img src="./assets/media/img/ambiance-soir.gif" alt="ambiance-soir">
         </div>
         <div class="experience-overlay"></div>
-        <div id="ambiance-soir" class="block-experience-text-wrapper-left">
+        <div id="ambiance-soir" class="col-11 offset-1 block-experience-text-wrapper-left">
             <div class="text-video-left">
                 <h2 class="no-margin w-50">Y a qui ce soir sur scène ?</h2>
                 <p class="text-labeur color-white w-50">Cinq jours, Cinq nuits et cinq scènes pour plus d’une 20aine d’artistes, découverte et soirée mémorable garantis !</p>
@@ -66,7 +66,7 @@
             </video>
         </div>
         <div class="experience-overlay"></div>
-        <div class="block-experience-text-wrapper">
+        <div class="col-10 offset-1 block-experience-text-wrapper">
             <div class="text-video text-right">
                 <h2 class="no-margin">T’es plutôt entre amis ou en famille?</h2>
                 <p class="text-labeur color-white">Avec tes potes ou tes enfants, le Mirage Festival est fait pour
