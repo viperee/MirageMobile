@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Proxima Nova Thin;
+  src: url("../fonts/proxima_nova_thin.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Light;
+  src: url("../fonts/proxima_nova_light.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Bold;
+  src: url("../fonts/proxima_nova_bold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova SemiBold;
+  src: url("../fonts/proxima_nova_semibold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova ExtraBold;
+  src: url("../fonts/proxima_nova_extrabold.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Black;
+  src: url("../fonts/proxima_nova_black.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Regular;
+  src: url("../fonts/proxima_nova_regular.otf"); }
+
+@font-face {
+  font-family: Proxima Nova Medium;
+  src: url("../fonts/proxima_nova_medium.ttf"); }
+
+/*--------------------------------------------------------------//
+//                          Couleur                            //
+//------------------------------------------------------------*/
+.color-noir {
+  color: #000000; }
+
+.color-gunmetal {
+  color: #2A3236; }
+
+.color-eclipse {
+  color: #383838; }
+
+.color-storm-grey {
+  color: #717276; }
+
+.color-dim-gray {
+  color: #707070; }
+
+.color-suva-grey {
+  color: #939393; }
+
+.color-lavender-grey {
+  color: #C6C6D1; }
+
+.color-solitude {
+  color: #EEF0F4; }
+
+.color-whisper {
+  color: #EAEAEA; }
+
+.color-white {
+  color: white; }
+
+/*----------------------------------------------------------------------//
+//                          Couleur de fond                            //
+//--------------------------------------------------------------------*/
+.background-noir {
+  background-color: #000000; }
+
+.background-white {
+  background-color: white; }
+
+.background-degrade {
+  background: linear-gradient(to right, #000000, #FFFFFF, #000000); }
+
+.background-solitude {
+  background-color: #EEF0F4; }
+
+.container-fluid {
+  margin-bottom: 71px; }
+
+.festival-description-wrapper {
+  padding-top: 62px; }
+
+#festival-details {
+  margin-right: 35px;
+  margin-left: 35px; }
+
+.festival-details-text {
+  margin: 34px; }
+
+#nom, #mail, #sujet, #message {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: white;
+  color: #000000;
+  width: 100%; }
+
+#nom::placeholder, #mail::placeholder, #sujet::placeholder, #message::placeholder {
+  color: #000000;
+  font-family: Proxima Nova Regular;
+  font-size: 15px; }
+
+#btn-formulaire {
+  width: 122px;
+  height: 51px;
+  margin-top: 23px; }
+
+input {
+  margin-bottom: 17px; }

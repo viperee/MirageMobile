@@ -5,8 +5,6 @@
     <title>Festival</title>
     <?php include("head.php"); ?>
     <link rel="stylesheet" type="text/css" href="assets/css/partenariats.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
 </head>
 <body class="no-margin background-noir">
 <?php include("header.php"); ?>
@@ -74,8 +72,6 @@
 
 <!--IMPORTS JS-->
 <?php include("script.php"); ?>
-<script src="assets/js/slick.min.js"></script>
-<script src="assets/js/festival.js"></script>
 <!--/IMPORTS JS-->
 </body>
 </html>

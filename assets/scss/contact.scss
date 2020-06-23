@@ -1,0 +1,43 @@
+@import "fonts.scss";
+@import "color.scss";
+
+.container-fluid{
+  margin-bottom: 71px;
+}
+
+.festival-description-wrapper {
+  padding-top: 62px;
+}
+
+#festival-details {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.festival-details-text {
+  margin: 34px;
+}
+
+
+#nom, #mail, #sujet, #message{
+    border: 1px solid $color-noir;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: white;
+    color: $color-noir;
+    width: 100%;
+  }
+  #nom::placeholder, #mail::placeholder, #sujet::placeholder, #message::placeholder{
+    color: $color-noir;
+    font-family: Proxima Nova Regular;
+    font-size: 15px;
+  }
+  #btn-formulaire{
+    width: 122px;
+    height: 51px;
+    margin-top: 23px;
+  }
+
+  input{
+      margin-bottom: 17px;
+  }
