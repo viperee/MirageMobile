@@ -24,11 +24,13 @@
                 <div class="row">
                     <div class="col festival-details-text">
                         <h5 class="no-margin-top color-noir">Formulaire</h5>
-                        <input id="nom" type="text" placeholder="Nom">
-                        <input id="mail" type="text" placeholder="Adresse Email">
-                        <input id="sujet" type="text" placeholder="Sujet">
-                        <textarea id="message" type="text" placeholder="Message"></textarea>
-                        <div class="text-center"><button id="btn-formulaire" class="btn-with-icon-black"><span>Envoyer</span></button></div>
+                        <form>
+                            <input id="nom" type="text" placeholder="Nom">
+                            <input id="mail" type="text" placeholder="Adresse Email">
+                            <input id="sujet" type="text" placeholder="Sujet">
+                            <textarea id="message" type="text" placeholder="Message"></textarea>
+                            <div class="text-center"><button id="btn-formulaire" class="btn-with-icon-black"><span>Envoyer</span></button></div>
+                        </form>
                     </div>
                 </div>
             </div>
