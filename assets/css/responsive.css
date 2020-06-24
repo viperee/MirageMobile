@@ -1,0 +1,10 @@
+@media only screen and (min-width: 520px) and (max-width: 979px) {
+  /* For tablets: */
+  .col-10 {
+    max-width: 79.333333%; }
+  #menu {
+    margin-top: 30%;
+    margin-left: 3%; }
+  #fred-laura-container {
+    margin-top: 35%;
+    margin-bottom: 48%; } }
