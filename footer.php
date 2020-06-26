@@ -13,11 +13,16 @@
             </ul>
             <p id="newsletter-text">S’inscrire à la newsletter</p>
             <input id="newsletter-mail" type="text" placeholder="Adresse Email">
-            <button id="btn-newsletter-mail" class="btn-with-icon"><span>S'inscrire</span></button>
+            <div>
+                <button id="btn-newsletter-mail" class="btn-with-icon"><span>S'inscrire</span></button>
+            </div>
             <div id="social-network">
-                <span><a href="https://www.facebook.com/miragefest/" target="_blank"><img src="assets/icons/facebook-white.svg" alt="Facebook"></a></span>
-                <span><a href="https://twitter.com/miragefest" target="_blank"><img src="assets/icons/twitter-white.svg" alt="Twitter"></a></span>
-                <span><a href="https://www.instagram.com/miragefest/" target="_blank"><img src="assets/icons/instagram-white.svg" alt="Instagram"></a></span>
+                <span><a href="https://www.facebook.com/miragefest/" target="_blank"><img
+                                src="assets/icons/facebook-white.svg" alt="Facebook"></a></span>
+                <span><a href="https://twitter.com/miragefest" target="_blank"><img src="assets/icons/twitter-white.svg"
+                                                                                    alt="Twitter"></a></span>
+                <span><a href="https://www.instagram.com/miragefest/" target="_blank"><img
+                                src="assets/icons/instagram-white.svg" alt="Instagram"></a></span>
             </div>
         </div>
     </div>
