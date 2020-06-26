@@ -17,9 +17,7 @@
         <a href="https://www.youtube.com/watch?v=fL7aAZdQrtc&feature=youtu.be" target="_blank">Regarder la video</a>
     </div>
     <div class="block-experience">
-        <video autoplay muted loop>
-            <source src="./assets/media/video/experience-insolite.mp4" type="video/mp4">
-        </video>
+        <img src="./assets/media/video/experience-insolite.gif" />
         <div class="experience-overlay"></div>
         <div class="col-11 offset-1 block-experience-text-wrapper-left">
             <div class="text-video-left">
@@ -61,9 +59,7 @@
     </div>
     <div class="block-experience">
         <div class="media-container">
-            <video autoplay muted loop>
-                <source src="./assets/media/video/experience.mp4" type="video/mp4">
-            </video>
+            <img src="./assets/media/video/experience.gif" />
         </div>
         <div class="experience-overlay"></div>
         <div class="col-10 offset-1 block-experience-text-wrapper">
@@ -79,9 +75,7 @@
     </div>
     <div class="block-experience">
         <div class="media-container">
-            <video autoplay muted loop>
-                <source src="./assets/media/video/experience-drone.mp4" type="video/mp4">
-            </video>
+            <img src="./assets/media/video/experience-drone.gif" />
         </div>
         <div class="block-experience-text-wrapper-center">
             <div class="text-video-center">
@@ -91,9 +85,7 @@
     </div>
     <div class="block-experience">
         <div class="media-container">
-            <video autoplay muted loop>
-                <source src="./assets/media/video/experience-enfant.mp4" type="video/mp4">
-            </video>
+            <img src="./assets/media/video/experience-enfant.gif" />
         </div>
         <div class="experience-overlay"></div>
         <div class="block-experience-text-wrapper-top-left">
@@ -104,9 +96,7 @@
     </div>
     <div class="block-experience">
         <div class="media-container">
-            <video autoplay muted loop>
-                <source src="./assets/media/video/experience-intense.mp4" type="video/mp4">
-            </video>
+            <img src="./assets/media/video/experience-intense.gif" />
         </div>
         <div class="experience-overlay"></div>
         <div class="block-experience-text-wrapper-center">
@@ -120,9 +110,7 @@
     </div>
     <div class="block-experience">
         <div class="media-container">
-            <video autoplay muted loop>
-                <source src="./assets/media/video/experience-viens.mp4" type="video/mp4">
-            </video>
+            <img src="./assets/media/video/experience-viens.gif" />
         </div>
         <div class="experience-overlay"></div>
         <div class="block-experience-text-wrapper-center">
