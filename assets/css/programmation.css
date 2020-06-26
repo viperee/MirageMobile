@@ -233,6 +233,9 @@ img.header-accordion-icon {
 .header-accordion-time {
   display: flex; }
 
+.header-accordion {
+  cursor: pointer; }
+
 .header-accordion-time-text {
   font-family: Proxima Nova Light;
   font-size: 16px !important;
