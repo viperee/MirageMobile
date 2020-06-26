@@ -65,7 +65,7 @@
   color: transparent; }
 
 .img-ambiance {
-  margin-bottom: 26px; }
+  margin-bottom: 12%; }
 
 .slick-prev:before {
   content: url("../../assets/icons/arrow-left.svg") !important; }

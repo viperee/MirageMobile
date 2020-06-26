@@ -1,0 +1,197 @@
+/*--------------------------------------------------------------//
+//                          Couleur                            //
+//------------------------------------------------------------*/
+.color-noir {
+  color: #000000; }
+
+.color-gunmetal {
+  color: #2A3236; }
+
+.color-eclipse {
+  color: #383838; }
+
+.color-storm-grey {
+  color: #717276; }
+
+.color-dim-gray {
+  color: #707070; }
+
+.color-suva-grey {
+  color: #939393; }
+
+.color-lavender-grey {
+  color: #C6C6D1; }
+
+.color-solitude {
+  color: #EEF0F4; }
+
+.color-whisper {
+  color: #EAEAEA; }
+
+.color-white {
+  color: white; }
+
+/*----------------------------------------------------------------------//
+//                          Couleur de fond                            //
+//--------------------------------------------------------------------*/
+.background-noir {
+  background-color: #000000; }
+
+.background-white {
+  background-color: white; }
+
+.background-degrade {
+  background: linear-gradient(to right, #000000, #FFFFFF, #000000); }
+
+.background-solitude {
+  background-color: #EEF0F4; }
+
+.col-9 {
+  flex: 0 0 71%; }
+
+#tabs ul {
+  list-style-type: none; }
+
+#tabs ul li {
+  display: inline; }
+
+.block-accordeon.container {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+#tabs .container-fluid {
+  margin-bottom: 3%; }
+
+.btn:hover {
+  background-color: black;
+  border: 1px solid white; }
+  .btn:hover span {
+    color: white; }
+
+#btn-covoiturer {
+  width: 134px;
+  height: 54px;
+  background-color: white;
+  border: 2px solid #2A3236; }
+  #btn-covoiturer span {
+    font-family: Proxima Nova Bold;
+    font-size: 17px;
+    color: #2A3236;
+    text-transform: uppercase; }
+
+#btn-benevole {
+  width: 232px;
+  height: 54px;
+  background-color: white;
+  border: 2px solid #2A3236; }
+  #btn-benevole span {
+    font-family: Proxima Nova Bold;
+    font-size: 17px;
+    color: #2A3236;
+    text-transform: uppercase; }
+
+#mailMirageFestival {
+  text-decoration: none;
+  font-family: Proxima Nova SemiBold;
+  font-size: 17px;
+  color: #2A3236; }
+
+.btn-active {
+  background-color: black;
+  border: 1px solid white; }
+  .btn-active img {
+    margin-right: 0;
+    vertical-align: sub; }
+
+.btn-active:focus {
+  outline: none; }
+
+.liens-habitants {
+  text-decoration: none;
+  font-family: Proxima Nova SemiBold;
+  font-size: 20px;
+  color: #2A3236; }
+
+.titre-accordeon-icon {
+  cursor: pointer; }
+
+.btn span {
+  font-family: Proxima Nova Bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: black; }
+
+.btn-active span {
+  font-family: Proxima Nova Bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white; }
+
+.btn-with-icon {
+  width: 209px;
+  height: 62px; }
+
+#tabs .btn-with-icon {
+  width: 65px;
+  height: 65px; }
+
+#btn-trajet {
+  width: 65px;
+  height: 65px; }
+
+#btn-sur-place {
+  width: 65px;
+  height: 65px; }
+
+#btn-hebergement {
+  width: 65px;
+  height: 65px; }
+
+.btn {
+  background-color: white;
+  border: none; }
+
+#tabs .btn-icon-ticket img {
+  margin-right: 0; }
+
+.btn-active {
+  background-color: black;
+  border: 1px solid white; }
+
+#tabs-container {
+  padding-top: 8%;
+  padding-bottom: 8%; }
+
+.titre-accordeon {
+  font-family: Proxima Nova Bold;
+  font-size: 23px;
+  display: inline; }
+
+.titre-accordeon:before {
+  content: "\2022";
+  color: #939393;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 43px;
+  vertical-align: sub;
+  margin-right: 26px;
+  margin-left: 5px; }
+
+.container {
+  max-width: 87%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.sous-titre-accordeon {
+  font-family: Proxima Nova Bold;
+  font-size: 19px;
+  margin-left: 48px;
+  margin-top: 1em;
+  margin-bottom: 2%; }
+
+.texte-accordeon {
+  font-family: Proxima Nova Regular;
+  font-size: 17px;
+  margin-left: 48px;
+  margin-top: 0;
+  margin-bottom: 0; }

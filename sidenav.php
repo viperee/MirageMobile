@@ -13,7 +13,7 @@
                 
                 <div id="sidenav-menu" class="row">
                     <div class="col-12">
-                    <a href="https://www.weezevent.com/mirage-festival-2" target="_blank"><button class="btn-with-icon btn-icon-ticket background-white"><img src="assets/icons/ticket.svg" alt="Menu"><span>Billeterie</span></button></a>
+                    <a href="https://www.weezevent.com/mirage-festival-2" target="_blank"><button class="btn-with-icon btn-icon-ticket background-white"><img src="assets/icons/ticket-black.svg" alt="Menu"><span>Billeterie</span></button></a>
                     </div>
                     <div class="col-12">
                         <ul>
