@@ -34,7 +34,8 @@
 
 #btn-newsletter-mail {
   width: 122px;
-  height: 51px; }
+  height: 51px;
+  background-color: white; }
 
 #footer-copyright-text {
   font-family: Arial;
