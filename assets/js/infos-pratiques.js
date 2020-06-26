@@ -8,15 +8,15 @@ $().ready(() => {
     $("#tabs-sur-place").hide();
     $(".btn").hover(hoverIn, hoverOut);
     $(".content-accordeon").hide();
-    $(".titre-accordeon-icon").click(function(){
-        let isOpen = $(this).attr('src').includes("arrow-down");
+    $(".titre-accordeon-wrapper").click(function(){
+        let isOpen = $(this).find("img").attr('src').includes("arrow-down");
         if(isOpen){
-            $(this).attr('src', 'assets/icons/arrow-up.svg');
+            $(this).find("img").attr('src', 'assets/icons/arrow-up.svg');
         }
         else{
-            $(this).attr('src', 'assets/icons/arrow-down.svg');
+            $(this).find("img").attr('src', 'assets/icons/arrow-down.svg');
         }
-        $(this).parents(".row").siblings(".content-accordeon").slideToggle("slow");
+        $(this).siblings(".content-accordeon").slideToggle("slow");
     });
     $("#btn-trajet").click(function () {
         changeActiveButton($(this), btn.BTN_TRAJET);

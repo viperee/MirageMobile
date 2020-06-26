@@ -51,7 +51,7 @@
         <div id="tabs-container" class="background-solitude">
             <div id="tabs-trajet" class="container-fluid">
                 <div class="block-accordeon mb-4 container background-white">
-                    <div class="row">
+                    <div class="row titre-accordeon-wrapper">
                         <div class="col-9">
                             <p class="titre-accordeon">En voiture</p>
                         </div>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="block-accordeon mb-4 container background-white">
-                    <div class="row">
+                    <div class="row titre-accordeon-wrapper">
                         <div class="col-9">
                             <p class="titre-accordeon">En covoiturage</p>
                         </div>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <div class="block-accordeon mb-4 container background-white">
-                    <div class="row">
+                    <div class="row titre-accordeon-wrapper">
                         <div class="col-9">
                             <p class="titre-accordeon">En bus</p>
                         </div>
@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 <div class="block-accordeon mb-4 container background-white">
-                    <div class="row">
+                    <div class="row titre-accordeon-wrapper">
                         <div class="col-9">
                             <p class="titre-accordeon">En train</p>
                         </div>
@@ -133,7 +133,7 @@
                     </div>
                 </div>
                 <div class="block-accordeon mb-4 container background-white">
-                    <div class="row">
+                    <div class="row titre-accordeon-wrapper">
                         <div class="col-9">
                             <p class="titre-accordeon">En tramway</p>
                         </div>
@@ -152,7 +152,7 @@
             </div>
             <div id="tabs-sur-place" class="container-fluid">
                 <div class="block-accordeon mb-4 container background-white">
-                    <div class="row">
+                    <div class="row titre-accordeon-wrapper">
                         <div class="col-9">
                             <p class="titre-accordeon">Boissons & nourritures</p>
                         </div>
@@ -175,7 +175,7 @@
                     </div>
                 </div>
                 <div class="block-accordeon mb-4 container background-white">
-                    <div class="row">
+                    <div class="row titre-accordeon-wrapper">
                         <div class="col-9">
                             <p class="titre-accordeon">PMR/PSH & Handicap</p>
                         </div>
@@ -195,7 +195,7 @@
                     </div>
                 </div>
                 <div class="block-accordeon mb-4 container background-white">
-                    <div class="row">
+                    <div class="row titre-accordeon-wrapper">
                         <div class="col-9">
                             <p class="titre-accordeon">Bénévolat</p>
                         </div>
@@ -214,7 +214,7 @@
             </div>
             <div id="tabs-hebergement" class="container-fluid">
                 <div class="block-accordeon mb-4 container background-white">
-                    <div class="row">
+                    <div class="row titre-accordeon-wrapper">
                         <div class="col-9">
                             <p class="titre-accordeon">Camping</p>
                         </div>
@@ -233,7 +233,7 @@
                     </div>
                 </div>
                 <div class="block-accordeon mb-4 container background-white">
-                    <div class="row">
+                    <div class="row titre-accordeon-wrapper">
                         <div class="col-9">
                             <p class="titre-accordeon">Chez l’habitant</p>
                         </div>
