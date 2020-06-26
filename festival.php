@@ -37,7 +37,7 @@
                     <div class="col festival-details-text">
                     <h5 class="no-margin-top color-noir">Cosmogonie</h5>
                         <p class="no-margin text-labeur text-left">
-                            Orbitant autour de la thématique spatiale, cette huitième édition du Mirage Festival se
+                            Orbitant autour de la thématique spatiale, cette première édition du Mirage Festival se
                             penche sur la façon dont les artistes abordent différentes approches de notre relation au
                             cosmos et sonde la manière dont la conquête spatiale, depuis ses débuts, a influencé et
                             transcendé les idées et les créations.<br><br>
